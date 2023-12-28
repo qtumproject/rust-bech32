@@ -13,6 +13,7 @@
 //! # Examples
 //!
 //! ```
+//! use bech32_qtum as bech32;
 //! use bech32::{Bech32, ByteIterExt, Fe32IterExt, Fe32, Hrp};
 //!
 //! let data = [

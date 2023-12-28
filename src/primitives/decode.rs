@@ -33,6 +33,7 @@
 //! # Examples
 //!
 //! ```
+//! use bech32_qtum as bech32;
 //! use bech32::{Bech32, Bech32m, Fe32, Hrp};
 //! use bech32::primitives::decode::{CheckedHrpstring, SegwitHrpstring, UncheckedHrpstring};
 //! use bech32::segwit::VERSION_1;
@@ -97,6 +98,7 @@ const SEP: char = '1';
 /// # Examples
 ///
 /// ```
+/// use bech32_qtum as bech32;
 /// use bech32::{Bech32, Bech32m, primitives::decode::UncheckedHrpstring};
 ///
 /// let addr = "QC1Q7X6RCF43WP9W5U2TS3L3YQGU86YDG625NF3PFT";
@@ -236,6 +238,7 @@ impl<'s> UncheckedHrpstring<'s> {
 /// # Examples
 ///
 /// ```
+/// use bech32_qtum as bech32;
 /// use bech32::{Bech32m, primitives::decode::CheckedHrpstring};
 ///
 /// // Parse a general checksummed bech32 encoded string.
@@ -359,6 +362,7 @@ impl<'s> CheckedHrpstring<'s> {
 /// # Examples
 ///
 /// ```
+/// use bech32_qtum as bech32;
 /// use bech32::primitives::decode::SegwitHrpstring;
 ///
 /// // Parse a segwit V0 address.

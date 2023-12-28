@@ -8,6 +8,7 @@
 #![no_std]
 
 use arrayvec::ArrayString;
+use bech32_qtum as bech32;
 use bech32::primitives::decode::CheckedHrpstring;
 use bech32::{Bech32, Hrp};
 use cortex_m_rt::entry;

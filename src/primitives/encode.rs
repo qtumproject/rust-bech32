@@ -14,6 +14,7 @@
 //! # Examples
 //!
 //! ```
+//! use bech32_qtum as bech32;
 //! use bech32::{Bech32, ByteIterExt, Fe32IterExt, Fe32, Hrp};
 //!
 //! let witness_prog = [
@@ -57,6 +58,7 @@ use crate::{Checksum, Fe32};
 /// # Examples
 ///
 /// ```
+/// use bech32_qtum as bech32;
 /// use bech32::{Bech32, ByteIterExt, Fe32IterExt, Hrp};
 ///
 /// let data = [0xf1, 0xb4, 0x3c, 0x26, 0xb1, 0x70, 0x4a, 0xea];

@@ -11,6 +11,7 @@
 //!
 //! ```
 //! # #[cfg(feature = "alloc")] {
+//! use bech32_qtum as bech32;
 //! use bech32::{hrp, segwit, Fe32, Hrp};
 //!
 //! let witness_prog = [
@@ -73,6 +74,7 @@ pub use {
 /// # Examples
 ///
 /// ```
+/// use bech32_qtum as bech32;
 /// use bech32::segwit;
 /// let address = "bc1py3m7vwnghyne9gnvcjw82j7gqt2rafgdmlmwmqnn3hvcmdm09rjqcgrtxs";
 /// let (_hrp, _witness_version, _witness_program) = segwit::decode(address).expect("failed to decode address");

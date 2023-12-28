@@ -2,6 +2,7 @@
 
 #![cfg(feature = "alloc")]
 
+use bech32_qtum as bech32;
 use bech32::primitives::decode::{
     CheckedHrpstring, CheckedHrpstringError, ChecksumError, SegwitHrpstring, SegwitHrpstringError,
     UncheckedHrpstring,

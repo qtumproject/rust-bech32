@@ -35,6 +35,7 @@
 //!
 //! ```
 //! # #[cfg(feature = "alloc")] {
+//! use bech32_qtum as bech32;
 //! use bech32::{hrp, segwit, Hrp, Bech32m};
 //!
 //! const DATA: [u8; 20] = [0xab; 20]; // Arbitrary data to be encoded.
@@ -61,6 +62,7 @@
 //!
 //! ```
 //! # #[cfg(feature = "alloc")] {
+//! use bech32_qtum as bech32;
 //! use bech32::primitives::decode::{CheckedHrpstring, SegwitHrpstring};
 //! use bech32::{hrp, segwit, Hrp, Bech32m};
 //!
@@ -97,6 +99,7 @@
 //!
 //! ```
 //! # #[cfg(feature = "alloc")] {
+//! use bech32_qtum as bech32;
 //! use bech32::Checksum;
 //!
 //! /// The codex32 checksum algorithm, defined in BIP-93.
@@ -189,6 +192,7 @@ const BUF_LENGTH: usize = 10;
 /// # Examples
 /// ```
 /// # #[cfg(feature = "alloc")] {
+/// use bech32_qtum as bech32;
 /// use bech32::{decode, Bech32, Bech32m, NoChecksum};
 /// use bech32::primitives::decode::CheckedHrpstring;
 ///

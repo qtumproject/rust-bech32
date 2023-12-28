@@ -1,15 +1,16 @@
 [package]
-name = "bech32"
+name = "bech32-qtum"
 version = "0.10.0-beta"
-authors = ["Clark Moody", "Andrew Poelstra", "Tobin Harding"]
-repository = "https://github.com/rust-bitcoin/rust-bech32"
+authors = ["Clark Moody", "Andrew Poelstra", "Tobin Harding", "The Qtum developers"]
+repository = "https://github.com/qtumproject/rust-bech32"
 documentation = "https://docs.rs/bech32/"
 description = "Encodes and decodes the Bech32 format and implements the bech32 and bech32m checksums"
 readme = "README.md"
-keywords = ["base32", "encoding", "bech32", "bitcoin", "cryptocurrency"]
+keywords = ["base32", "encoding", "bech32", "bitcoin", "qtum", "cryptocurrency"]
 categories = ["encoding", "cryptography::cryptocurrencies"]
 license = "MIT"
 edition = "2018"
+autotests = false
 
 [features]
 default = ["std"]
