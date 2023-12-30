@@ -6,6 +6,7 @@ extern crate alloc;
 use core::alloc::Layout;
 
 use alloc_cortex_m::CortexMHeap;
+use bech32_qtum as bech32;
 use bech32::{Bech32m, Hrp};
 use cortex_m::asm;
 use cortex_m_rt::entry;

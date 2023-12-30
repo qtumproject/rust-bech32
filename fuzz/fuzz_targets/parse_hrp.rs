@@ -1,5 +1,6 @@
 extern crate bech32;
 
+use bech32_qtum as bech32;
 use bech32::Hrp;
 
 fn do_test(data: &[u8]) {

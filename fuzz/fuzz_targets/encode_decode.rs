@@ -2,6 +2,7 @@ extern crate bech32;
 
 use std::str;
 
+use bech32_qtum as bech32;
 use bech32::{Bech32m, Hrp};
 
 fn do_test(data: &[u8]) {

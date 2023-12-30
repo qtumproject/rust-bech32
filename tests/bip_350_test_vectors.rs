@@ -2,6 +2,7 @@
 
 #![cfg(feature = "alloc")]
 
+use bech32_qtum as bech32;
 use bech32::primitives::decode::{
     CheckedHrpstring, CheckedHrpstringError, ChecksumError, SegwitHrpstring, SegwitHrpstringError,
     UncheckedHrpstring,
@@ -69,7 +70,7 @@ macro_rules! check_valid_address_roundtrip {
 }
 // Note these test vectors include various witness versions.
 check_valid_address_roundtrip! {
-    bip_350_valid_address_roundtrip_0, "BC1QW508D6QEJXTDG4Y5R3ZARVARY0C5XW7KV8F3T4";
+    bip_350_valid_address_roundtrip_0, "QC1Q7X6RCF43WP9W5U2TS3L3YQGU86YDG625NF3PFT";
     bip_350_valid_address_roundtrip_1, "tb1qrp33g0q5c5txsp9arysrx4k6zdkfs4nce4xj0gdcccefvpysxf3q0sl5k7";
     bip_350_valid_address_roundtrip_2, "bc1pw508d6qejxtdg4y5r3zarvary0c5xw7kw508d6qejxtdg4y5r3zarvary0c5xw7kt5nd6y";
     bip_350_valid_address_roundtrip_3, "BC1SW50QGDZ25J";
